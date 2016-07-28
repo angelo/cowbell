@@ -417,3 +417,71 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+
+/* start of custom styles */
+
+body {
+  color: #dee;
+  background: #267191;
+  background: #045;
+  text-align: center;
+  font-family: "mr-eaves-xl-sans", sans-serif;
+}
+
+h1 {
+  font-weight: 100;
+  font-family: "filson-soft", sans-serif;
+  text-transform: uppercase;
+  font-size: 48px;
+}
+
+h1 strong {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 500;
+  font-family: "filson-soft", sans-serif;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+ul {
+  width: auto;
+  font-size: 20px;
+  text-align: left;
+  margin: 1em auto;
+  list-style: none;
+  overflow: hidden;
+  line-height: 1.2;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 1em 1em 0 1em;
+  background: rgba(0,0,0,.05);
+}
+
+ul span{
+  float: right;
+  margin: 0 0 0 10px;
+}
+
+ul strong {
+  text-transform: uppercase;
+}
+
+ul li {
+  margin: 0 0 1em 0;
+  border-bottom: 1px dashed rgba(0,0,0,.1);
+}
+
+section {
+  padding: 24px;
+}
+
+section.alt {
+  /*color: #267191;*/
+  color: #045;
+  /*background: #b6f1ff;*/
+  background: #dee;
+  padding: 24px;
+}
